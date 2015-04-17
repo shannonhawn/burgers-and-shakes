@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font: normal 100%/1.5 Dosis,sans-serif;
+  font: normal 100%/1.5 Nunito,sans-serif;
 }
 
 *, *::before, *::after {
@@ -11,7 +11,7 @@ body {
   margin: 0;
   min-height: 100vh;
   padding-bottom: 44px;
-  font-family:"Cambay";
+  font-family:"Nunito";
 }
 
 img {
@@ -30,15 +30,37 @@ img {
 
 .subheading{
   text-align: center;
+  font-size: 1.5rem;
+  color:black;
+  padding:0;
+  margin:0;
+}
+
+.footer-heading{
+  text-align: center;
   font-size: 1rem;
   color:black;
   padding:0;
   margin:0;
 }
 
+.figure{
+  width:100%;
+  margin:0;
+  padding:0
+}
+
 figcaption{
   text-align: center;
   font-size: 1.5rem;
+  color:black;
+  padding:0;
+  margin:0;
+}
+
+.review{
+  text-align: center;
+  font-size: 1rem;
   color:black;
   padding:0;
   margin:0;
@@ -86,5 +108,5 @@ figcaption{
 p{
   color:#cf262b;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
