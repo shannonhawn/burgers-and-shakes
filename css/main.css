@@ -11,6 +11,7 @@ body {
   margin: 0;
   min-height: 100vh;
   padding-bottom: 44px;
+  font-family:"Cambay";
 }
 
 img {
@@ -28,6 +29,14 @@ img {
 }
 
 .subheading{
+  text-align: center;
+  font-size: 1rem;
+  color:black;
+  padding:0;
+  margin:0;
+}
+
+figcaption{
   text-align: center;
   font-size: 1.5rem;
   color:black;
