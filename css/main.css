@@ -19,9 +19,12 @@ img {
 }
 
 .headings{
-  color:#cf262b;
+  background-color:#cf262b;
   text-align: center;
   font-size: 2rem;
+  color:#fff;
+  padding:0;
+  margin:0;
 }
 
 .logo {
@@ -60,5 +63,11 @@ img {
 }
 
 .footer{
-  width:50%;
+  width:100%;
+}
+
+p{
+  color:#cf262b;
+  text-align: center;
+  font-size: 1.5rem;
 }
