@@ -11,7 +11,6 @@ body {
   margin: 0;
   min-height: 100vh;
   padding-bottom: 44px;
-
 }
 
 img {
@@ -19,18 +18,15 @@ img {
   width: 100%;
 }
 
-.masthead {
-  background: url("../images/header-bg.png") left top repeat;
-
-  color: #512200;
+.headings{
+  color:#cf262b;
   text-align: center;
+  font-size: 2rem;
 }
 
 .logo {
   margin: 0;
   padding: 0.2em 0 0.3em;
-
-  background-image: url("../images/icon.svg"), url("../images/icon.svg");
   background-repeat: no-repeat;
   background-size: 32px auto;
   background-position: 15px center, calc(100% - 15px) center;
@@ -56,60 +52,13 @@ img {
   font-size: 1.125rem;
   font-weight: bold;
   text-decoration: none;
-  background-color:red;
+  background-color:#cf262b;
 }
 
 .nav a:hover {
   background-color: rgba(81,34,0,0.5);
 }
 
-.banner {
-  padding: calc(2em + 20vw) 0 0;
-
-  background: url("../images/dirt.jpg") center center / cover no-repeat;
-}
-
-.intro {
-  margin: 0;
-  padding: 3em 15px 1em;
-
-  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.6));
-
-  color: #fff;
-  font-size: 1.125rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-.nowrap {
-  white-space: nowrap;
-}
-
-.beetles {
-  overflow: hidden;
-}
-
-.beetle {
-  float: left;
-  position: relative;
-  width: 50%;
-}
-
-.btn {
-  padding: 0.4em 1em 0.5em;
-  position: absolute;
-  bottom: 15px;
-  left: 50%;
-  transform: translateX(-50%);
-
-  background-image: linear-gradient(to bottom, #6fc000, #388200);
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.75);
-
-  color: #fff;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background-image: linear-gradient(to bottom, #388200, #214d00);
+.footer{
+  width:50%;
 }
