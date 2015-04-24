@@ -15,9 +15,11 @@ body {
 }
 
 .logo{
-  width: 100%;
-  padding-top: 0;
-  margin:0;
+  background-image: url("../images/logo.jpg");
+    width:100%;
+    margin: 0em;
+    position: relative;
+    repeat:none;
 }
 
 
@@ -65,14 +67,10 @@ p{
   background-color: rgba(81,34,0,0.5);
 }
 
-.freshness{
-  text-align:center;
-  font-size:2rem;
-  color:#cf262b;
-  padding:0;
-  margin:0;
-  top:1px;
+
+.meat{
   position:relative;
+  width:100%;
 }
 
 .headings{
@@ -91,10 +89,10 @@ p{
 
 /*----------menu*/
 
-.freshness{
-  text-align: center;
-  font-size: 2rem;
-  color:#fff;
+.fresh{
+  text-align:center;
+  font-size:2rem;
+  color:#cf262b;
   padding:0;
   margin:0;
   top:1px;
