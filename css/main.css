@@ -14,14 +14,12 @@ body {
   font-family:"Nunito";
 }
 
-.logo {
+.logo{
+  width: 100%;
+  padding-top: 0;
   margin:0;
-  padding:0;
-  background-repeat: no-repeat;
-  background-size: 32px auto;
-  background-position: 15px center, calc(100% - 15px) center;
-  width:100%
 }
+
 
 img {
   display: block;
@@ -31,7 +29,7 @@ img {
 p{
   color:#cf262b;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 
@@ -56,7 +54,7 @@ p{
   display: block;
   padding: 0.4em 0 0.5em;
   color: white;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: bold;
   text-decoration: none;
   background-color:#cf262b;
@@ -68,9 +66,9 @@ p{
 }
 
 .freshness{
-  text-align: center;
-  font-size: 2rem;
-  color:#fff;
+  text-align:center;
+  font-size:2rem;
+  color:#cf262b;
   padding:0;
   margin:0;
   top:1px;
@@ -79,8 +77,8 @@ p{
 
 .headings{
   background-color:#cf262b;
-  text-align: center;
-  font-size: 2rem;
+  text-align:center;
+  font-size:2rem;
   color:#fff;
   padding:0;
   margin:0;
@@ -116,9 +114,9 @@ p{
 }
 
 .family-business{
-  text-align: center;
-  font-size: 2rem;
-  color:#fff;
+  text-align:center;
+  font-size:2rem;
+  color:#cf262b;
   padding:0;
   margin:0;
   top:1px;
@@ -128,20 +126,21 @@ p{
 /*----------awards*/
 
 .trophy-right{
-  width:45%;
+  width:50%;
   float:right;
   position:relative;
-  display:block;
   margin:0;
+  padding:0;
 }
 
 .trophy-left{
-  width:45%;
+  width:50%;
   float:left;
   position:relative;
-  display:block;
   margin:0;
+  padding:0;
 }
+
 
 .figure{
   width:100%;
@@ -150,8 +149,8 @@ p{
 }
 
 figcaption{
-  text-align: center;
-  font-size: 1rem;
+  text-align:center;
+  font-size:1rem;
   color:black;
   padding:0;
   margin:0;
