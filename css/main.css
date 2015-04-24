@@ -26,6 +26,23 @@ img {
   color:#fff;
   padding:0;
   margin:0;
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.6));
+}
+
+.trophy-right{
+  width:45%;
+  float:right;
+  position:relative;
+  display:block;
+  margin:0;
+}
+
+.trophy-left{
+  width:45%;
+  float:left;
+  position:relative;
+  display:block;
+  margin:0;
 }
 
 .subheading{
@@ -52,7 +69,7 @@ img {
 
 figcaption{
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color:black;
   padding:0;
   margin:0;
@@ -95,10 +112,26 @@ figcaption{
   font-weight: bold;
   text-decoration: none;
   background-color:#cf262b;
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.6));
 }
 
 .nav a:hover {
   background-color: rgba(81,34,0,0.5);
+}
+
+.facebook{
+  width:30%;
+  float:left;
+}
+
+.instagram{
+  width:30%;
+  clear:both;
+}
+
+.twitter{
+  width:30%;
+  float:right;
 }
 
 .footer{
