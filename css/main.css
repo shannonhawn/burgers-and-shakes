@@ -14,6 +14,19 @@ body {
   font-family:"Nunito";
 }
 
+.freshness{
+  text-align: center;
+  font-size: 2rem;
+  color:#fff;
+  padding:0;
+  margin:0;
+  bottom:5px;
+}
+
+.family-business{
+
+}
+
 img {
   display: block;
   width: 100%;
@@ -117,21 +130,6 @@ figcaption{
 
 .nav a:hover {
   background-color: rgba(81,34,0,0.5);
-}
-
-.facebook{
-  width:30%;
-  float:left;
-}
-
-.instagram{
-  width:30%;
-  clear:both;
-}
-
-.twitter{
-  width:30%;
-  float:right;
 }
 
 .footer{
