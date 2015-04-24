@@ -19,7 +19,6 @@ body {
     width:100%;
     margin: 0em;
     position: relative;
-    repeat:none;
 }
 
 
@@ -65,12 +64,6 @@ p{
 
 .nav a:hover {
   background-color: rgba(81,34,0,0.5);
-}
-
-
-.meat{
-  position:relative;
-  width:100%;
 }
 
 .headings{
