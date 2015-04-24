@@ -20,11 +20,26 @@ body {
   color:#fff;
   padding:0;
   margin:0;
-  bottom:5px;
+  bottom:95px;
+  position:relative;
 }
 
 .family-business{
+  text-align: center;
+  font-size: 2rem;
+  color:#fff;
+  padding:0;
+  margin:0;
+  bottom:60px;
+  position:relative;
+}
 
+.images{
+  padding:0;
+  margin:0;
+  width:100%;
+  padding:0;
+  margin:0;
 }
 
 img {
